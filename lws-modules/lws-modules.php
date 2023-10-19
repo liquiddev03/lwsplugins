@@ -27,7 +27,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 $myUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://github.com/liquiddev03/lwsplugins.git',
 	__FILE__,
-	'lws-modules'
+	'LWSModules'
 );
 
 //Set the branch that contains the stable release.
