@@ -22,11 +22,12 @@ if (!defined('ABSPATH')) die('No direct access allowed');
  * Admin: Pages / Subpages
  */
 require_once plugin_dir_path( __FILE__ ) . 'admin/admin-pages.php';
+
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/liquiddev03/lwsplugins.git',
 	__FILE__,
-	'lws-module'
+	'lws-modules'
 );
 
 //Set the branch that contains the stable release.
