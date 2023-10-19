@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: LWSModules
-Plugin URI:  https://www.liquidstudiogroup.com
+Plugin URI:  https://github.com/liquiddev03/lwsplugins.git
 Description: LWS Custom Modules
 Version:     0.0.1
 Author:      Mario Mecaroni
